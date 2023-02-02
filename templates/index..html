@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drop-Down Menu Example</title>
+  </head>
+  <body>
+    <h1>Drop-Down Menu Example</h1>
+    <select>
+      {% for option in menu_options %}
+      <option>{{ option }}</option>
+      {% endfor %}
+    </select>
+  </body>
+</html>
