@@ -13,5 +13,6 @@ def handle_button():
     # Perform some action based on the selected option
 #    return "Button pressed! Selected option: {}".format(selected_option)
     return f"You selected: {selected_option}"
+
 if __name__ == "__main__":
     app.run()
